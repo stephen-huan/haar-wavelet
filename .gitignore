@@ -1,0 +1,36 @@
+.direnv/
+result
+
+__pycache__/
+build/
+*.c
+*.html
+*.so
+
+archive/
+figures/
+
+# LaTeX auxiliary files
+*.aux
+*.auxlock
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex(busy)
+*.synctex.gz
+*.thm
+
+# bibliography files
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+
+# minted code output
+*.pyg
+*.pygstyle
+*.pygtex
+*.loa
