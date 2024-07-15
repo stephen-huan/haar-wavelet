@@ -98,8 +98,6 @@ cdef void __iwt_alloc(size_t n, double *x, double *y, int mode) noexcept nogil:
     while m <= n:
         __alloc_inv_even_odd(m, x, y)
         # y now holds the result
-        for i in range(m, n):
-            y[i] = x[i]
         if m < n - m or n == 2:
             for i in range(m):
                 x[i] = y[i]
